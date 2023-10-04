@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header .header_content .home .icon{
+    background-color: blue;
+    color: red;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: bottom;
+}
+
+header .header_content .title{
+    font-size: 36px;
+    line-height: 36px;
+}
+
+header .header_content .home{
+    font-size: 100px;
+    line-height: 36px;
+}
+

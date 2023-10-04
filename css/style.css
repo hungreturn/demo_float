@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* start header */
+header .header_content{
+    margin: 20px 0;
+}
+
+
+header .header_content .home{
+    text-decoration: none;
+    text-align: center;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+header .header_content .home .icon{
+    width: 36px;
+    height: 36px;
+    background-color:#002146;
+    color: #FDC800;
+    border-radius: 50px;
+    line-height: 36px;
+    font-size: 20px;
+    vertical-align: bottom;
+}
+
+header .header_content .home .title{
+    font-size: 36px;
+    color: black;
+}
+
+header .header_content .nav li{
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+}
+
+/* end header */
+
+/* start banner */
+
+.banner{
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/2.jpg);
+}
+
+/* end banner */
+
+/* start interview */
+.interview{
+    margin: 30px 0;
+}
+
+.interview .interview_content h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.interview .interview_content p{
+    font-size: 20px;
+    color: gray;
+}
+
+.interview .interview_content button{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 200px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: #FDC800;
+    border: none;
+}
+
+.interview .interview_content{
+    margin: 15px 0;
+    width: 50%;
+    float: left;
+}
+
+.interview .interview_img{
+    width: 50%;
+    float: right;
+}
+
+.interview .interview_img img{
+    width: 100%;
+}
+
+.interview .interview_content h2{
+    float: ;
+}
+
+
+/* end interview */
+
+
+/* start number */
+.number{
+    padding:40px 0;
+    background-color: #F6F6F6;
+}
+
+.number .item{
+    width: 25%;
+    float: left;
+}
+
+.number .item .sub_item1{
+    float: left;
+    font-size: 50px;
+    margin-left: 5px;
+}
+
+.number .item .sub_item2{
+    line-height: 40px;
+}
+
+/* end number */
+
+/* start float */
+.demo_float .item{
+    width: 25%;
+    height: 100px; 
+    float: left;
+}
+
+.demo_float .item .item_content{
+    background-color: #002146;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* end float */
